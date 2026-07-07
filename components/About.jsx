@@ -25,16 +25,18 @@ export default function About() {
               background: 'linear-gradient(135deg, var(--accent), var(--accent2))',
               WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'
             }}>actually matter</span></h2>
-
-            <p style={{ color: 'var(--text2)', lineHeight: 1.9, marginBottom: '20px', fontSize: '0.95rem' }}>
-              I'm Kavya Chavda, an Information Technology student at CSPIT (Charusat), Gujarat.
-              My journey started with a Diploma in IT from Government Polytechnic Ahmedabad, and I've
-              been building real-world projects ever since.
-            </p>
-            <p style={{ color: 'var(--text2)', lineHeight: 1.9, marginBottom: '32px', fontSize: '0.95rem' }}>
-              From interning at the Airports Authority of India to working on Spring Boot backends,
-              I love solving problems at the intersection of software development and security.
-            </p>
+            
+<p style={{ color: 'var(--text2)', lineHeight: 1.9, marginBottom: '20px', fontSize: '0.95rem' }}>
+  I'm Kavya Chavda, an Information Technology student at CSPIT (CHARUSAT), Gujarat.
+  My journey began with a Diploma in Information Technology from Government Polytechnic Ahmedabad,
+  and I've since focused on building practical software that solves real-world problems.
+</p>
+<p style={{ color: 'var(--text2)', lineHeight: 1.9, marginBottom: '32px', fontSize: '0.95rem' }}>
+  Through internships at Airports Authority of India, Abhedya Tech Services, and Softwingz Infotech,
+  I've gained hands-on experience in .NET, Spring Boot, Python, AI-powered automation, and desktop
+  application development. I enjoy building intelligent software, backend systems, and developer tools
+  that combine automation, performance, and great user experiences.
+</p>
 
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               {['Java', 'Python', 'Spring Boot', 'Security', '.NET'].map(tag => (
@@ -55,9 +57,9 @@ export default function About() {
             {[
               { icon: '🎓', title: 'B.Tech in IT', sub: 'CSPIT Charusat · Expected 2027', href: 'https://cspit.charusat.ac.in/' },
               { icon: '📜', title: 'Diploma in IT', sub: 'Govt. Polytechnic Ahmedabad · CGPA 7.56', href: 'http://www.gpahmedabad.ac.in/' },
-              { icon: '🤖', title: 'Python Developer Intern', sub: 'Softwingz Infotech · Remote · 09 Jun 2026 – 08 Jul 2026', href: '#' },
-              { icon: '✈️', title: 'AAI Intern', sub: 'Software Intern · July – Aug 2023', href: 'https://www.aai.aero/en/airports/bhavnagar' },
-              { icon: '🔐', title: 'Backend Intern', sub: 'Abhedya Tech · June – July 2025', href: 'https://abhedyatechservices.com/' },
+              { icon: '🤖', title: 'Python Developer Intern', sub: 'Softwingz Infotech · Jun 2026 – Jul 2026', href: 'https://softwingz.com/' },
+              { icon: '✈️', title: 'Software Intern', sub: 'Airports Authority of India · July – Aug 2023', href: 'https://www.aai.aero/en/airports/bhavnagar' },
+              { icon: '🔐', title: 'Backend Intern', sub: 'Abhedya Tech Services · June – July 2025', href: 'https://abhedyatechservices.com/' },
             ].map(card => (
               <a key={card.title} href={card.href} target="_blank" rel="noopener noreferrer" style={{
                 padding: '20px 24px',
