@@ -2,6 +2,16 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const projects = [
   {
+    name: 'System Automation Assistant',
+    year: '2026',
+    tag: 'AI / Automation',
+    color: '#38bdf8',
+    desc: 'An AI-powered Windows System Automation Assistant using Python and local LLMs for intelligent desktop automation and workflow execution.',
+    tech: ['Python', 'Local LLMs', 'Ollama'],
+    icon: '🤖',
+    github: '#'
+  },
+  {
     name: 'SentinelX',
     year: '2026',
     tag: 'Security Tool',

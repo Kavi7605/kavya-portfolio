@@ -8,11 +8,8 @@ const experiences = [
     period: '09 June 2026 – 08 July 2026',
     color: '#4ade80',
     points: [
-      'Developed an AI-powered Windows System Automation Assistant using Python and local LLMs.',
-      'Implemented intelligent desktop automation including application control, file management, screenshots, browser automation, and workflow execution.',
-      'Built context-aware command execution with conversational memory and structured JSON-based action planning.',
-      'Integrated Ollama-powered language models with Python automation libraries to execute real operating system tasks.',
-      'Created automated testing and logging systems to improve reliability and maintainability.',
+      'Developed an AI-powered Windows System Automation Assistant using Python, Ollama, and local LLMs to execute real desktop tasks.',
+      'Built intelligent automation workflows including application control, file management, browser automation, screenshots, and structured command execution.',
     ]
   },
   {
@@ -22,8 +19,8 @@ const experiences = [
     period: 'June 2025 – July 2025',
     color: '#7c6af7',
     points: [
-      'Worked on a Spring Boot project; configured RESTful APIs and database models.',
-      'Implemented Auth0 authentication and learned server-side security practices.',
+      'Developed RESTful APIs and database models using Spring Boot for enterprise backend applications.',
+      'Implemented Auth0 authentication and strengthened server-side security following industry best practices.',
     ]
   },
   {
@@ -33,9 +30,8 @@ const experiences = [
     period: 'July 2023 – Aug 2023',
     color: '#e05f8e',
     points: [
-      'Designed and implemented "BA-Project," a .NET Windows application for breath-analyzer data management.',
-      'Developed UI using WinForms and integrated Access database for real-time record management.',
-      'Conducted testing to identify and resolve bugs and performance issues.',
+      'Built a .NET WinForms application for breath-analyzer data management with Microsoft Access database integration.',
+      'Designed the user interface, tested the application, and resolved bugs to improve stability and usability.',
     ]
   },
 ]
