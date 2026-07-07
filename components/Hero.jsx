@@ -499,7 +499,7 @@ export default function Hero() {
             opacity: 0,
           }}>
             {[
-              { n: '2+', label: 'Internships' },
+              { n: '3', label: 'Internships' },
               { n: '4+', label: 'Projects' },
               { n: 'B.Tech', label: 'IT @ CSPIT' },
             ].map(s => (

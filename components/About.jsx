@@ -53,6 +53,7 @@ export default function About() {
           {/* Right — Info cards */}
           <div style={{ display: 'grid', gap: '16px' }}>
             {[
+              { icon: '🤖', title: 'Python Developer Intern', sub: 'Softwingz Infotech · Remote · 09 Jun 2026 – 08 Jul 2026', href: '#' },
               { icon: '🎓', title: 'B.Tech in IT', sub: 'CSPIT Charusat · Expected 2027', href: 'https://cspit.charusat.ac.in/' },
               { icon: '📜', title: 'Diploma in IT', sub: 'Govt. Polytechnic Ahmedabad · CGPA 7.56', href: 'http://www.gpahmedabad.ac.in/' },
               { icon: '✈️', title: 'AAI Intern', sub: 'Software Intern · July – Aug 2023', href: 'https://www.aai.aero/en/airports/bhavnagar' },

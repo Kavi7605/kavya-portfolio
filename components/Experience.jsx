@@ -2,6 +2,20 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const experiences = [
   {
+    role: 'Python Developer Intern',
+    company: 'Softwingz Infotech',
+    href: '#',
+    period: '09 June 2026 – 08 July 2026',
+    color: '#4ade80',
+    points: [
+      'Developed an AI-powered Windows System Automation Assistant using Python and local LLMs.',
+      'Implemented intelligent desktop automation including application control, file management, screenshots, browser automation, and workflow execution.',
+      'Built context-aware command execution with conversational memory and structured JSON-based action planning.',
+      'Integrated Ollama-powered language models with Python automation libraries to execute real operating system tasks.',
+      'Created automated testing and logging systems to improve reliability and maintainability.',
+    ]
+  },
+  {
     role: 'Backend Intern',
     company: 'Abhedya Tech Services',
     href: 'https://abhedyatechservices.com/',
