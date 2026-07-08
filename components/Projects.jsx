@@ -9,7 +9,7 @@ const projects = [
     desc: 'An AI-powered Windows System Automation Assistant using Python and local LLMs for intelligent desktop automation and workflow execution.',
     tech: ['Python', 'Local LLMs', 'Ollama'],
     icon: '🤖',
-    github: '#'
+    github: 'https://github.com/Kavi7605/SystemAutomationAssistant'
   },
   {
     name: 'SentinelX',
